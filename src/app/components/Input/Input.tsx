@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Input.module.css';
 
 type InputProps = {
-  placeholder: string;
+  text: string;
 };
 function Input({ text }: InputProps): JSX.Element {
   return (
