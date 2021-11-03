@@ -6,26 +6,3 @@
   height: 100vh;
   place-items: center;
 }
-
-.title {
-  text-transform: uppercase;
-  color: whitesmoke;
-}
-
-.form {
-  display: grid;
-  gap: 0.5rem;
-  place-items: center;
-}
-
-.form__field {
-  border-radius: 2rem;
-  border: 0;
-  background-color: whitesmoke;
-}
-
-.form__button {
-  border-radius: 2rem;
-  background-color: whitesmoke;
-  border: 0;
-}

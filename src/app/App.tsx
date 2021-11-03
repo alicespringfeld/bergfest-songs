@@ -7,7 +7,7 @@ function App(): JSX.Element {
   return (
     <main className={styles.container}>
       <div>
-        <Title />
+        <Title text="Welcome to Bergfest! 🍻" />
         <Form />
       </div>
     </main>
