@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Form.module.css';
+import Input from '../Input/Input';
 
 function Form(): JSX.Element {
   return (
@@ -9,11 +10,7 @@ function Form(): JSX.Element {
         className={styles.form__field}
         placeholder="First name"
       />
-      <input
-        type="text"
-        className={styles.form__field}
-        placeholder="Last name"
-      />
+      <Input text="e-mail" />
       <input type="submit" value="check-in" className={styles.form__button} />
     </form>
   );
