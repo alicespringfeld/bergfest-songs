@@ -20,9 +20,12 @@
 
 .form__field {
   border-radius: 2rem;
+  border: 0;
+  background-color: whitesmoke;
 }
 
 .form__button {
   border-radius: 2rem;
   background-color: whitesmoke;
+  border: 0;
 }
