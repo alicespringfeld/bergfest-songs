@@ -16,7 +16,6 @@
   display: grid;
   gap: 0.5rem;
   place-items: center;
-  border-radius: 2rem;
 }
 
 .form__field {
